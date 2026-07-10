@@ -1,0 +1,16 @@
+{
+  "name": "Track Creator",
+  "slug": "track-creator",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/track-creator",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Track-Creator-0.0.6.ablx",
+  "description": "Creates multiple audio or MIDI tracks at once from a simple dialog. Current version 0.0.6; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "workflow",
+    "organization"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

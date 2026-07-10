@@ -1,0 +1,10 @@
+{
+  "name": "ablx-live",
+  "private": true,
+  "type": "module",
+  "description": "ablx.live — the open catalog of Ableton Live Extensions. Zero-dep static build.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check"
+  }
+}

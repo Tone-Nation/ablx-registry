@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ablx.live/api/schema.json",
+  "title": "ablx.live registry entry",
+  "description": "One published Ableton Live Extension (.ablx). One file per extension in store/registry/extensions/<slug>.json.",
+  "type": "object",
+  "required": ["name", "slug", "author", "description", "homepageUrl", "categories"],
+  "additionalProperties": false,
+  "properties": {
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "author": { "type": "string", "minLength": 1 },
+    "authorUrl": { "type": "string", "format": "uri" },
+    "homepageUrl": { "type": "string", "format": "uri", "description": "The author's own page for the extension (repo or product page)." },
+    "downloadUrl": { "type": "string", "format": "uri", "description": "Where the .ablx can actually be obtained (releases page or direct asset)." },
+    "description": { "type": "string", "minLength": 10, "maxLength": 400, "description": "1-2 factual sentences. No marketing copy." },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "enum": ["workflow", "midi-tools", "audio-tools", "arrangement", "organization", "generative", "fun", "integration", "utilities"]
+      }
+    },
+    "license": { "type": "string" },
+    "price": { "type": "string", "default": "free" },
+    "lastUpdated": { "type": "string", "description": "ISO date of last known release/update." },
+    "confidence": { "enum": ["verified", "listed"], "description": "verified = a concrete download location was confirmed by a maintainer. listed = directory entry pending link verification." },
+    "builtWithPatchwright": { "type": "boolean", "default": false },
+    "notes": { "type": "string" }
+  }
+}

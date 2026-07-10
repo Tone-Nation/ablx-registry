@@ -1,0 +1,18 @@
+{
+  "name": "gary-extension (SA3 Ableton Extension)",
+  "slug": "gary-extension",
+  "author": "betweentwomidnights",
+  "authorUrl": "https://github.com/betweentwomidnights",
+  "homepageUrl": "https://github.com/betweentwomidnights/sa3-ableton-extension",
+  "downloadUrl": "https://github.com/betweentwomidnights/sa3-ableton-extension/releases",
+  "description": "Brings Stable Audio 3 (SA3) generation, transformation, and continuation to audio tracks via three right-click actions: Transform, Continue, and Generate Selection. Requires an SA3 HTTP backend, or use the experimental v0.1.0 builds with an embedded sa3.cpp engine shipped as separate CPU, Vulkan, CUDA, and Mac Metal .ablx variants.",
+  "categories": [
+    "generative",
+    "audio-tools",
+    "integration"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-07-07",
+  "confidence": "verified",
+  "notes": "The author marks this as a development/experimental build."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Snake",
+  "slug": "snake",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/snake",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Snake-0.0.7.ablx",
+  "description": "Lets you play Snake inside Ableton Live and turns your gameplay into a MIDI clip. Current version 0.0.7; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "fun",
+    "generative"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

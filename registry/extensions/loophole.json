@@ -1,0 +1,18 @@
+{
+  "name": "Loophole",
+  "slug": "loophole",
+  "author": "Ahmad Othman Ammar Adi (OthmanAdi)",
+  "authorUrl": "https://github.com/OthmanAdi",
+  "homepageUrl": "https://github.com/OthmanAdi/loophole",
+  "description": "Runs an in-process MCP server on loopback so MCP clients like Claude can read and edit the open Live Set, with every write grouped into one undo step. Also registers five right-click commands: Lock to Scale, Humanize, Gain Stage Doctor, Build Arrangement from Session, and Clean Up Set.",
+  "categories": [
+    "integration",
+    "workflow",
+    "utilities"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-03",
+  "confidence": "listed",
+  "notes": "No prebuilt .ablx published yet — build from the source repo."
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Bass Mutator by Müsslin V6",
+  "slug": "bass-mutator-by-musslin-v6",
+  "author": "Müsslin (audiomyweb)",
+  "authorUrl": "https://github.com/audiomyweb",
+  "homepageUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab",
+  "downloadUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab/releases/download/bass-mutator-v6.0.0/bass-mutator-by-musslin-v6-1.ablx",
+  "description": "Generates and mutates MIDI basslines in Ableton Live 12, with groove variation, octave jumps, ghost hits, and visual MIDI feedback. Distributed as an experimental Extensions SDK (.ablx) tool.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-05",
+  "confidence": "verified",
+  "notes": "The author marks this as a development/experimental build."
+}

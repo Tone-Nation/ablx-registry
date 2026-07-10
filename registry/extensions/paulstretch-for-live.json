@@ -1,0 +1,16 @@
+{
+  "name": "Paulstretch for Live",
+  "slug": "paulstretch-for-live",
+  "author": "Oli Larkin",
+  "authorUrl": "https://github.com/olilarkin",
+  "homepageUrl": "https://github.com/olilarkin/paulstretch-for-live",
+  "downloadUrl": "https://github.com/olilarkin/paulstretch-for-live/releases/download/v1.0.0/Paulstretch-1.0.0.ablx",
+  "description": "Performs extreme audio time-stretching by embedding libpaulstretch, a modern C++ rewrite of Nasca Octavian Paul's Paulstretch algorithm compiled to WebAssembly, with a dialog UI including a stretch-multiplier envelope editor. Requires Ableton Live 12.4.5 Suite or later; prebuilt .ablx files are provided via GitHub Releases.",
+  "categories": [
+    "audio-tools"
+  ],
+  "license": "GPL-2.0",
+  "price": "free",
+  "lastUpdated": "2026-07-02",
+  "confidence": "verified"
+}

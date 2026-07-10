@@ -1,0 +1,16 @@
+{
+  "name": "Transpose Clips",
+  "slug": "transpose-clips",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/transposer",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Transpose-Clips-0.1.0.ablx",
+  "description": "Transposes every MIDI clip in the Live Set by a chosen number of semitones. Current version 0.1.0; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "midi-tools",
+    "utilities"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

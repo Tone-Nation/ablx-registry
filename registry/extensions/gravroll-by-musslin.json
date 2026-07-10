@@ -1,0 +1,18 @@
+{
+  "name": "GravRoll by Müsslin",
+  "slug": "gravroll-by-musslin",
+  "author": "Müsslin (audiomyweb)",
+  "authorUrl": "https://github.com/audiomyweb",
+  "homepageUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab",
+  "downloadUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab/releases/download/gravroll-v4.2.0/gravroll-by-musslin-v420.ablx",
+  "description": "Creative MIDI generation toolkit for Ableton Live 12 combining style generation, chord/pad, arp pulse, and bass anchor engines with variation, humanize, and scale-correct functions. Aimed at fast electronic music sketching; released at v4.2.0.",
+  "categories": [
+    "midi-tools",
+    "generative",
+    "workflow"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-06",
+  "confidence": "verified",
+  "notes": "The author marks this as a development/experimental build."
+}

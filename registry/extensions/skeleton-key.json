@@ -1,0 +1,17 @@
+{
+  "name": "Skeleton Key",
+  "slug": "skeleton-key",
+  "author": "Rooks Music (rooksmusic)",
+  "authorUrl": "https://github.com/rooksmusic",
+  "homepageUrl": "https://github.com/rooksmusic/skeleton-key",
+  "downloadUrl": "https://github.com/rooksmusic/skeleton-key/releases/download/v1.4.5/Skeleton-Key-1.4.5.ablx",
+  "description": "Injects a full song-arrangement skeleton in one click: six labeled sections, four tracks (Drums, Bass, Melody, Effects), genre-specific MIDI patterns, and cue points synced to the project Scale Mode. Includes eight genre presets from House to UK Garage, with per-layer toggles for individual tracks and patterns.",
+  "categories": [
+    "arrangement",
+    "generative",
+    "workflow"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-07-01",
+  "confidence": "verified"
+}

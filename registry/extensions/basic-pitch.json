@@ -1,0 +1,17 @@
+{
+  "name": "Basic Pitch",
+  "slug": "basic-pitch",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/spotify-basic-pitch",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Basic-Pitch-1.0.3.ablx",
+  "description": "Converts audio clips to MIDI using Spotify's Basic Pitch neural network, running fully offline on macOS and Windows. Current version 1.0.3; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "audio-tools",
+    "midi-tools"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-28",
+  "confidence": "verified"
+}

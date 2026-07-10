@@ -1,0 +1,16 @@
+{
+  "name": "Vivarium",
+  "slug": "vivarium",
+  "author": "Victor Mark (victormarkmade)",
+  "authorUrl": "https://github.com/victormarkmade",
+  "homepageUrl": "https://github.com/victormarkmade/vivarium",
+  "downloadUrl": "https://raw.githubusercontent.com/victormarkmade/vivarium/main/Vivarium-0.0.1.ablx",
+  "description": "Opens a small falling-sand ecosystem simulation in a modal dialog and records what the simulated world does back to the audio track it was opened from. The simulation lives only inside the dialog and ends when it is closed; only the recording persists in the Set.",
+  "categories": [
+    "generative",
+    "fun"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-03",
+  "confidence": "verified"
+}

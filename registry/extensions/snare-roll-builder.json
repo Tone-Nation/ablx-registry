@@ -1,0 +1,17 @@
+{
+  "name": "Snare Roll Builder",
+  "slug": "snare-roll-builder",
+  "author": "shatakaan",
+  "authorUrl": "https://github.com/shatakaan",
+  "homepageUrl": "https://github.com/shatakaan/ableton-live-extensions",
+  "downloadUrl": "https://raw.githubusercontent.com/shatakaan/ableton-live-extensions/main/snare-roll-builder/snare-roll-builder.ablx",
+  "description": "Generates genre-specific snare rolls into MIDI clips in Ableton Live, with eight genre presets and customizable length, velocity, and pitch parameters. Distributed as a prebuilt snare-roll-builder.ablx (v0.1.0) committed in the repository; requires Live 12.2+ on macOS or Windows.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-14",
+  "confidence": "verified"
+}

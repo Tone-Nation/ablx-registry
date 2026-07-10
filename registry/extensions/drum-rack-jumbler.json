@@ -1,0 +1,18 @@
+{
+  "name": "Drum Rack Jumbler",
+  "slug": "drum-rack-jumbler",
+  "author": "Adam Murray",
+  "authorUrl": "https://github.com/adamjmurray",
+  "homepageUrl": "https://github.com/adamjmurray/ableton-extensions-experiments",
+  "description": "Manipulates Drum Rack devices: swaps pad mappings, randomizes or centers pad panning, pitch-shifts Simpler pads by +/-1, +/-12, or +/-24 semitones, and resets pitch shifts. Works with Drum Racks on tracks or nested inside Instrument Racks.",
+  "categories": [
+    "generative",
+    "fun",
+    "workflow"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-25",
+  "confidence": "listed",
+  "notes": "No prebuilt .ablx published yet — build from the source repo."
+}

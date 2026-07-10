@@ -1,0 +1,17 @@
+{
+  "name": "Notation",
+  "slug": "notation",
+  "author": "Adam Murray",
+  "authorUrl": "https://github.com/adamjmurray",
+  "homepageUrl": "https://github.com/adamjmurray/ableton-extensions-experiments",
+  "description": "Converts MIDI clips into engraved sheet-music notation via a right-click Render command, with options for quantization, time signature, and legato. Exports scores as PNG, SVG, or MusicXML.",
+  "categories": [
+    "midi-tools",
+    "utilities"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-25",
+  "confidence": "listed",
+  "notes": "No prebuilt .ablx published yet — build from the source repo."
+}

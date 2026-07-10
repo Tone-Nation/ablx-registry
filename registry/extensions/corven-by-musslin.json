@@ -1,0 +1,17 @@
+{
+  "name": "CORVEN by MÜSSLIN",
+  "slug": "corven-by-musslin",
+  "author": "Müsslin (audiomyweb)",
+  "authorUrl": "https://github.com/audiomyweb",
+  "homepageUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab",
+  "downloadUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab/releases/download/corven-v1.0.0/corven-by-musslin-v0.5.4.ablx",
+  "description": "MIDI arpeggio engine for Ableton Live 12 that auto-generates arpeggios with four musical variations and writes them into the active MIDI clip. Offers Root, Style, Emotion, and Length controls plus randomize and session memory.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-05",
+  "confidence": "verified",
+  "notes": "The author marks this as a development/experimental build."
+}

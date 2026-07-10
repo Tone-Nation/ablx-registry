@@ -1,0 +1,18 @@
+{
+  "name": "Cue Templates",
+  "slug": "cue-templates",
+  "author": "shatakaan",
+  "authorUrl": "https://github.com/shatakaan",
+  "homepageUrl": "https://github.com/shatakaan/ableton-live-extensions",
+  "downloadUrl": "https://raw.githubusercontent.com/shatakaan/ableton-live-extensions/main/cue-templates/cue-templates.ablx",
+  "description": "Installs pre-built cue marker sets into an Ableton Live arrangement, shipping six genre templates and supporting custom templates with drag-and-drop reordering. Distributed as a prebuilt cue-templates.ablx (v0.1.0) committed in the repository; requires Live 12.2+ on macOS or Windows.",
+  "categories": [
+    "arrangement",
+    "organization",
+    "workflow"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-14",
+  "confidence": "verified"
+}

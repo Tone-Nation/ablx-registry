@@ -1,0 +1,17 @@
+{
+  "name": "GRAV DUCK by MÜSSLIN",
+  "slug": "grav-duck-by-musslin",
+  "author": "Müsslin (audiomyweb)",
+  "authorUrl": "https://github.com/audiomyweb",
+  "homepageUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab",
+  "downloadUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab/releases/download/grav-duck-v1.0.0/grav-duck-by-musslin.ablx",
+  "description": "Chord engine for Ableton Live 12 that generates harmonic progressions with an editable piano-roll preview and writes results directly to MIDI clips. Controls include root, scale, color, inversions, and arpeggiator settings.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-06",
+  "confidence": "verified",
+  "notes": "The author marks this as a development/experimental build."
+}

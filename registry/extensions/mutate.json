@@ -1,0 +1,17 @@
+{
+  "name": "Mutate",
+  "slug": "mutate",
+  "author": "Adam Murray",
+  "authorUrl": "https://github.com/adamjmurray",
+  "homepageUrl": "https://github.com/adamjmurray/ableton-extensions-experiments",
+  "description": "Generates randomized variations of MIDI clips, mutating velocity, timing, duration, probability, and notes via a dialog, with quick actions such as randomize-velocity and swap-notes. Variations can be written to new take lanes so the original clip is preserved.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-06-25",
+  "confidence": "listed",
+  "notes": "No prebuilt .ablx published yet — build from the source repo."
+}

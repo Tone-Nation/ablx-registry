@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="ablx.live — the patchbay for Ableton Live Extensions">
+  <rect width="1200" height="630" fill="#2b2b2b"/>
+  <rect width="1200" height="86" fill="#333333"/>
+  <rect y="84" width="1200" height="2" fill="#121212"/>
+  <circle cx="46" cy="43" r="7" fill="#454545" stroke="#161616" stroke-width="2"/>
+  <circle cx="1154" cy="43" r="7" fill="#454545" stroke="#161616" stroke-width="2"/>
+  <rect x="80" y="200" width="560" height="96" rx="14" fill="#232323" stroke="#121212" stroke-width="2"/>
+  <text x="112" y="266" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="58" font-weight="700" letter-spacing="4" fill="#ffae57">ablx.live</text>
+  <text x="84" y="356" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="40" fill="#f1f1f1">The patchbay for Ableton Live Extensions</text>
+  <text x="84" y="410" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#a0a0a0">Every public .ablx in one rack — linked straight to its author.</text>
+  <g>
+    <rect x="84" y="480" width="240" height="80" rx="10" fill="#292929" stroke="#121212" stroke-width="2"/>
+    <circle cx="108" cy="504" r="5" fill="#69b77a"/>
+    <rect x="124" y="498" width="120" height="12" rx="3" fill="#4a4a4a"/>
+    <rect x="100" y="526" width="180" height="9" rx="3" fill="#3d3d3d"/>
+    <rect x="344" y="480" width="240" height="80" rx="10" fill="#292929" stroke="#121212" stroke-width="2"/>
+    <circle cx="368" cy="504" r="5" fill="#47bfff"/>
+    <rect x="384" y="498" width="120" height="12" rx="3" fill="#4a4a4a"/>
+    <rect x="360" y="526" width="180" height="9" rx="3" fill="#3d3d3d"/>
+    <rect x="604" y="480" width="240" height="80" rx="10" fill="#292929" stroke="#121212" stroke-width="2"/>
+    <circle cx="628" cy="504" r="5" fill="#b68af0"/>
+    <rect x="644" y="498" width="120" height="12" rx="3" fill="#4a4a4a"/>
+    <rect x="620" y="526" width="180" height="9" rx="3" fill="#3d3d3d"/>
+    <rect x="864" y="480" width="240" height="80" rx="10" fill="none" stroke="#c9803c" stroke-width="2" stroke-dasharray="8 7"/>
+    <text x="920" y="528" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="20" fill="#ffae57">open slot</text>
+  </g>
+</svg>

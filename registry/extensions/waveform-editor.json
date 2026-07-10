@@ -1,0 +1,16 @@
+{
+  "name": "Waveform Editor",
+  "slug": "waveform-editor",
+  "author": "ottocoster",
+  "authorUrl": "https://github.com/ottocoster",
+  "homepageUrl": "https://github.com/ottocoster/waveform-editor-ableton-live-extension",
+  "downloadUrl": "https://raw.githubusercontent.com/ottocoster/waveform-editor-ableton-live-extension/main/waveform-editor-1.0.0.ablx",
+  "description": "Opens an audio clip in a sample-level waveform and pitch editor for spot-fixing pops, clicks, clipping, and tuning without leaving Ableton Live. Renders the clip to a temporary file, edits it in a modal canvas with Waveform, Pitch (TD-PSOLA), and Spectral tabs, then imports the result onto a new track; handles monophonic pitch material only.",
+  "categories": [
+    "audio-tools",
+    "workflow"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-07-07",
+  "confidence": "verified"
+}

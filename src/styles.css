@@ -1,0 +1,264 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   ablx.live — catalog styles
+   Sibling of the Patchwright site: same "Patchbay Workbench" surface kit,
+   same tokens. The catalog IS the hero — every extension is a rack module.
+   Sections: tokens · reset · masthead · hero · toolbar · rack/modules ·
+   detail faceplate · prose · footer · responsive · reduced-motion.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ───────────────────────── tokens (shared with patchwright.live) ── */
+:root {
+  --pw-bg: #363636;
+  --pw-bg-deep: #2b2b2b;
+  --pw-bg-deepest: #232323;
+  --pw-panel: #292929;
+  --pw-input: #1f1f1f;
+  --pw-border: #121212;
+  --pw-text: #cccccc;
+  --pw-text-2: #a0a0a0;
+  --pw-text-hi: #f1f1f1;
+  --pw-accent: #ffae57;
+  --pw-accent-dim: #c9803c;
+
+  /* node-kind colors → category LEDs */
+  --k-trigger: #ffae57;
+  --k-object:  #5aaae2;
+  --k-set:     #e0646d;
+  --k-action:  #69b77a;
+  --k-logic:   #b68af0;
+  --k-music:   #47bfff;
+  --k-ui:      #d6c36a;
+  --k-mute:    #8f8f8f;
+
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo, "Cascadia Code", Consolas, monospace;
+
+  --t-xs: clamp(0.72rem, 0.69rem + 0.15vw, 0.8rem);
+  --t-sm: clamp(0.82rem, 0.78rem + 0.2vw, 0.92rem);
+  --t-base: clamp(0.98rem, 0.93rem + 0.25vw, 1.08rem);
+  --t-lg: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  --t-xl: clamp(1.5rem, 1.25rem + 1.2vw, 2.1rem);
+  --t-2xl: clamp(2rem, 1.5rem + 2.2vw, 3.1rem);
+
+  --gutter: clamp(1.1rem, 0.6rem + 2.4vw, 3rem);
+  --maxw: 1180px;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --ring: 0 0 0 2px var(--pw-bg), 0 0 0 4px var(--pw-accent);
+  --ease-snap: cubic-bezier(0.2, 0.9, 0.25, 1);
+  --t-hover: 150ms;
+
+  --metal-rail: linear-gradient(180deg, #404040, #2c2c2c 60%, #242424);
+  --metal-edge-hi: rgba(255, 255, 255, 0.07);
+  --metal-edge-lo: rgba(0, 0, 0, 0.55);
+  --screw: radial-gradient(circle at 42% 34%, #7e7e7e 0%, #454545 42%, #1c1c1c 74%, #070707 90%, transparent 95%);
+  --engrave: 0 1px 0 rgba(255, 255, 255, 0.06), 0 -1px 0 rgba(0, 0, 0, 0.55);
+  --plate-shadow: 0 1px 0 var(--metal-edge-hi) inset, 0 -1px 0 var(--metal-edge-lo) inset, 0 2px 6px -3px rgba(0, 0, 0, 0.8);
+}
+
+/* ───────────────────────── reset ───────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--pw-bg-deep);
+  color: var(--pw-text);
+  font-family: var(--font-sans);
+  font-size: var(--t-base);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--pw-accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 4px; }
+.wrap { max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
+.mono { font-family: var(--font-mono); font-size: var(--t-sm); }
+.dim { color: var(--pw-text-2); }
+code { font-family: var(--font-mono); font-size: 0.92em; background: var(--pw-input); padding: 0.1em 0.35em; border-radius: 4px; }
+b { color: var(--pw-text-hi); font-weight: 600; }
+
+/* ───────────────────────── masthead: the top rail ───────── */
+.mast {
+  background: var(--metal-rail);
+  border-bottom: 1px solid var(--pw-border);
+  box-shadow: var(--plate-shadow);
+  position: sticky; top: 0; z-index: 10;
+}
+.mast .rail { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 56px; }
+.plate {
+  display: inline-block;
+  background: var(--pw-bg-deepest);
+  border: 1px solid var(--pw-border);
+  border-radius: var(--radius-sm);
+  padding: 0.3rem 0.85rem;
+  box-shadow: var(--plate-shadow);
+}
+.plate:hover { text-decoration: none; }
+.plate-txt {
+  font-family: var(--font-mono);
+  font-size: var(--t-base);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--pw-accent);
+  text-shadow: var(--engrave);
+}
+.mast nav { display: flex; gap: clamp(0.6rem, 2vw, 1.6rem); flex-wrap: wrap; }
+.mast nav a {
+  color: var(--pw-text);
+  font-size: var(--t-sm);
+  font-family: var(--font-mono);
+  letter-spacing: 0.03em;
+  text-shadow: var(--engrave);
+}
+.mast nav a:hover { color: var(--pw-text-hi); text-decoration: none; }
+
+/* ───────────────────────── hero: one line, then the goods ─ */
+.hero { padding-block: clamp(2.2rem, 5vw, 4rem) 0.5rem; max-width: 46em; }
+.eyebrow { color: var(--pw-accent); letter-spacing: 0.14em; text-transform: uppercase; font-size: var(--t-xs); margin: 0 0 0.6rem; }
+.hero h1 { font-size: var(--t-2xl); line-height: 1.08; letter-spacing: -0.015em; color: var(--pw-text-hi); margin: 0 0 0.7rem; }
+.lede { color: var(--pw-text-2); font-size: var(--t-lg); line-height: 1.45; margin: 0 0 0.9rem; }
+.counts { margin: 0; color: var(--pw-text-2); }
+.counts b { color: var(--pw-accent); }
+
+/* ───────────────────────── toolbar ────────────────────── */
+.toolbar { padding-block: 1.4rem 0.4rem; display: grid; gap: 0.8rem; }
+.search {
+  width: 100%; max-width: 34rem;
+  background: var(--pw-input);
+  border: 1px solid var(--pw-border);
+  border-radius: var(--radius-sm);
+  color: var(--pw-text-hi);
+  font: inherit; font-family: var(--font-mono); font-size: var(--t-base);
+  padding: 0.65rem 0.9rem;
+  box-shadow: 0 -1px 0 var(--metal-edge-lo) inset, 0 1px 0 var(--metal-edge-hi);
+}
+.search::placeholder { color: var(--pw-text-2); }
+.chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.chip {
+  display: inline-flex; align-items: center; gap: 0.45em;
+  background: var(--pw-panel);
+  border: 1px solid var(--pw-border);
+  border-radius: 999px;
+  color: var(--pw-text);
+  font-family: var(--font-mono); font-size: var(--t-xs); letter-spacing: 0.04em;
+  padding: 0.32rem 0.75rem;
+  cursor: pointer;
+  transition: transform var(--t-hover) var(--ease-snap), background var(--t-hover);
+}
+.chip:hover { background: var(--pw-bg); }
+.chip[aria-pressed="true"] { background: var(--pw-bg-deepest); border-color: var(--pw-accent-dim); color: var(--pw-text-hi); }
+.led {
+  width: 0.55em; height: 0.55em; border-radius: 50%;
+  background: var(--led, var(--k-mute));
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5), 0 0 6px 0 var(--led, transparent);
+  display: inline-block;
+}
+.result-count { margin: 0.4rem 0 0; }
+
+/* ───────────────────────── the rack ───────────────────── */
+.rack {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr));
+  gap: 1rem;
+  padding-block: 1.1rem 2.5rem;
+}
+.module {
+  background: var(--pw-panel);
+  border: 1px solid var(--pw-border);
+  border-radius: var(--radius);
+  box-shadow: var(--plate-shadow);
+  padding: 0 1.05rem 1rem;
+  display: flex; flex-direction: column;
+  transition: transform var(--t-hover) var(--ease-snap), box-shadow var(--t-hover);
+}
+.module:hover { transform: translateY(-2px); box-shadow: var(--plate-shadow), 0 8px 22px -12px rgba(0, 0, 0, 0.9); }
+/* display:flex above would defeat the hidden attribute (author CSS beats the UA
+   [hidden] rule) — restore it for the catalog filter. */
+.module[hidden] { display: none; }
+.module-rail {
+  background: var(--metal-rail);
+  margin: 0 -1.05rem 0.85rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  border-bottom: 1px solid var(--pw-border);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0.32rem 0.7rem;
+}
+.screw { width: 9px; height: 9px; border-radius: 50%; background: var(--screw); position: relative; }
+.screw::after { content: ""; position: absolute; inset: 3px 1px auto; top: 4px; height: 1px; background: rgba(0, 0, 0, 0.7); transform: rotate(-35deg); }
+.module-tag { font-size: var(--t-xs); letter-spacing: 0.12em; text-transform: uppercase; color: var(--pw-text-2); text-shadow: var(--engrave); }
+.module h2 { font-size: var(--t-lg); line-height: 1.2; margin: 0 0 0.15rem; }
+.module h2 a { color: var(--pw-text-hi); }
+.module h2 a:hover { color: var(--pw-accent); text-decoration: none; }
+.byline { margin: 0 0 0.55rem; color: var(--pw-text-2); font-size: var(--t-sm); }
+.desc { margin: 0 0 0.9rem; color: var(--pw-text); font-size: var(--t-sm); flex: 1; }
+.module-foot { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+.cats { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.cat { display: inline-flex; align-items: center; gap: 0.4em; font-family: var(--font-mono); font-size: var(--t-xs); color: var(--pw-text-2); }
+.price { color: var(--pw-accent); font-size: var(--t-xs); letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* submit CTA module: an empty slot in the rack */
+.module-cta { border-style: dashed; border-color: #4a4a4a; background: transparent; box-shadow: none; }
+.module-cta:hover { text-decoration: none; border-color: var(--pw-accent-dim); }
+.module-cta h2 { color: var(--pw-text-hi); font-size: var(--t-lg); margin: 0 0 0.15rem; }
+.empty { padding: 2rem 0 4rem; }
+
+/* ───────────────────────── buttons ────────────────────── */
+.btn {
+  display: inline-block;
+  background: var(--pw-accent);
+  color: #1d1205;
+  font-weight: 650; font-size: var(--t-sm);
+  border: 1px solid var(--pw-accent-dim);
+  border-radius: var(--radius-sm);
+  padding: 0.55rem 1.05rem;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset, 0 -1px 0 rgba(0, 0, 0, 0.25) inset;
+  transition: transform var(--t-hover) var(--ease-snap), filter var(--t-hover);
+  align-self: start;
+}
+.btn:hover { text-decoration: none; filter: brightness(1.06); transform: translateY(-1px); }
+.btn-quiet { background: var(--pw-panel); color: var(--pw-text-hi); border-color: var(--pw-border); box-shadow: var(--plate-shadow); }
+
+/* ───────────────────────── detail faceplate ───────────── */
+.crumb { padding-block: 1.3rem 0; color: var(--pw-text-2); }
+.face {
+  background: var(--pw-panel);
+  border: 1px solid var(--pw-border);
+  border-radius: var(--radius);
+  box-shadow: var(--plate-shadow);
+  padding: 0 clamp(1rem, 3vw, 1.8rem) 1.4rem;
+  margin-top: 1rem;
+}
+.face .module-rail { margin-inline: calc(clamp(1rem, 3vw, 1.8rem) * -1); }
+.face h1 { font-size: var(--t-xl); color: var(--pw-text-hi); margin: 0.2rem 0 0.15rem; letter-spacing: -0.01em; }
+.face .desc { font-size: var(--t-base); max-width: 56em; }
+.face-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.4rem 0 1.2rem; }
+.meta { display: grid; grid-template-columns: max-content 1fr; gap: 0.35rem 1.2rem; margin: 0; border-top: 1px solid var(--pw-border); padding-top: 1rem; }
+.meta dt { color: var(--pw-text-2); text-transform: uppercase; letter-spacing: 0.1em; font-size: var(--t-xs); }
+.meta dd { margin: 0; font-size: var(--t-sm); }
+
+.install { padding: 1.8rem 0 3rem; max-width: 46em; }
+.install h2, .prose h2 { color: var(--pw-text-hi); font-size: var(--t-lg); margin: 1.6rem 0 0.5rem; }
+.install ol, .prose ol { padding-left: 1.3rem; }
+.install li, .prose li { margin-bottom: 0.45rem; }
+
+/* ───────────────────────── prose pages ────────────────── */
+.prose { padding: 2rem 0 3.5rem; max-width: 46em; }
+.prose h1 { font-size: var(--t-xl); color: var(--pw-text-hi); letter-spacing: -0.01em; margin: 0 0 0.6rem; }
+.prose p { color: var(--pw-text); }
+
+/* ───────────────────────── footer ─────────────────────── */
+.foot { border-top: 1px solid var(--pw-border); padding-block: 1.6rem 2.4rem; color: var(--pw-text-2); font-size: var(--t-sm); }
+.foot p { margin: 0.3rem 0; }
+
+/* ───────────────────────── responsive ─────────────────── */
+@media (max-width: 560px) {
+  .mast .rail { flex-direction: column; align-items: flex-start; padding-block: 0.6rem; }
+  .meta { grid-template-columns: 1fr; gap: 0.1rem; }
+  .meta dt { margin-top: 0.6rem; }
+}
+
+/* ───────────────────────── reduced motion ─────────────── */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

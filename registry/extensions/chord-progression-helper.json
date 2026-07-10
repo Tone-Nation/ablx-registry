@@ -1,0 +1,16 @@
+{
+  "name": "Chord Progression Helper",
+  "slug": "chord-progression-helper",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/chord-progression-helper",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Progression-Helper-0.5.1.ablx",
+  "description": "Builds chord progressions from any key and writes them into a MIDI clip. Current version 0.5.1; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

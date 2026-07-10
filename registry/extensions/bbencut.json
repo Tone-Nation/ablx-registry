@@ -1,0 +1,16 @@
+{
+  "name": "BBenCut",
+  "slug": "bbencut",
+  "author": "Ben Casey (bencodec)",
+  "authorUrl": "https://github.com/bencodec",
+  "homepageUrl": "https://github.com/bencodec/BBenCut",
+  "downloadUrl": "https://github.com/bencodec/BBenCut/releases/download/1.0.0/BBenCut-1.0.0.ablx",
+  "description": "Applies the BBCut breakbeat-cutting algorithms (a SuperCollider library by Nick Collins, ported to TypeScript) to audio clips in Live's Arrangement View via a right-click action. Offers ten configurable cut procedures (BBCutProc11, WarpCutProc1, SQPusher, CageCut, etc.) and non-destructively replaces the clip with a sequence of rearranged looping clips.",
+  "categories": [
+    "audio-tools",
+    "generative"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-01",
+  "confidence": "verified"
+}

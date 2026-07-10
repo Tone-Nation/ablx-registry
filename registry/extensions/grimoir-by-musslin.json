@@ -1,0 +1,17 @@
+{
+  "name": "GRIMOIR by Müsslin",
+  "slug": "grimoir-by-musslin",
+  "author": "Müsslin (audiomyweb)",
+  "authorUrl": "https://github.com/audiomyweb",
+  "homepageUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab",
+  "downloadUrl": "https://github.com/audiomyweb/musslin-ableton-extensions-lab/releases/download/grimoir-v1.0.0/grimoir-by-musslin-v100.ablx",
+  "description": "Ableton Live 12 Extensions SDK tool that generates complete MIDI ideas across four layers (Bass, Chords, Arp, Lead), with three write modes: FULL, CHORD, and BASS. Released at v1.0.0 as a development build.",
+  "categories": [
+    "midi-tools",
+    "generative"
+  ],
+  "price": "free",
+  "lastUpdated": "2026-06-06",
+  "confidence": "verified",
+  "notes": "The author marks this as a development/experimental build."
+}

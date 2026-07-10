@@ -1,0 +1,16 @@
+{
+  "name": "Session to Arrangement Bridge",
+  "slug": "session-to-arrangement-bridge",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/session-arrangement-bridge",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Session-to-Arrangement-Bridge-0.0.8.ablx",
+  "description": "Transfers all Session View clips into Arrangement View with full fidelity. Current version 0.0.8; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "arrangement",
+    "workflow"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

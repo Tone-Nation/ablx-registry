@@ -1,0 +1,15 @@
+{
+  "name": "Chord Voicing Helper",
+  "slug": "chord-voicing-helper",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/chord-voicings-helper",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Chord-Voicing-Helper-1.0.2.ablx",
+  "description": "Detects chords in a MIDI clip and lets you apply and preview different voicing strategies. Current version 1.0.2; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "midi-tools"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

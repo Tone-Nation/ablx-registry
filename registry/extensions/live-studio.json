@@ -1,0 +1,18 @@
+{
+  "name": "Live Studio",
+  "slug": "live-studio",
+  "author": "Ramón Sesma",
+  "authorUrl": "https://github.com/ramonsesma",
+  "homepageUrl": "https://github.com/ramonsesma/live-studio",
+  "downloadUrl": "https://github.com/ramonsesma/live-studio/releases/download/v1.2.0/live-studio.ablx",
+  "description": "A modular 'super-extension' for Ableton Live 12 that bundles many production modules behind a tabbed webview with a command palette and a bring-your-own-key AI copilot supporting several providers. Includes panels such as a piano roll, mixer, step sequencer, and EQ curves, plus in-host audio analysis like the FFT-based Resonance Mix Radar; requires Live 12.4.5b+.",
+  "categories": [
+    "workflow",
+    "generative",
+    "audio-tools"
+  ],
+  "license": "GPL-3.0",
+  "price": "free",
+  "lastUpdated": "2026-07-08",
+  "confidence": "verified"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Doom",
+  "slug": "doom",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/doom",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/Doom-1.0.0.ablx",
+  "description": "Runs the original 1993 DOOM Shareware fully offline inside Ableton Live on macOS and Windows. Current version 1.0.0; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "fun"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}

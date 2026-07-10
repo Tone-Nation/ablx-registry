@@ -1,0 +1,16 @@
+{
+  "name": "ChromaFlux",
+  "slug": "chroma-flux",
+  "author": "Federico Pepe",
+  "authorUrl": "https://github.com/federico-pepe",
+  "homepageUrl": "https://github.com/federico-pepe/ableton-live-extensions/tree/main/extensions/chroma-flux",
+  "downloadUrl": "https://raw.githubusercontent.com/federico-pepe/ableton-live-extensions/main/download/ChromaFlux-0.0.7.ablx",
+  "description": "Randomizes Instrument Rack parameters with a configurable mode and intensity. Current version 0.0.7; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "generative",
+    "utilities"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "confidence": "verified"
+}
