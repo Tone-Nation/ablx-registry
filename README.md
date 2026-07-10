@@ -25,3 +25,5 @@ node scripts/build.mjs           # build the site to dist/
 Merges to `main` deploy https://ablx.live automatically.
 
 Maintained by the Patchwright project. Not affiliated with Ableton AG.
+
+Preview a local build with `npx serve dist` after running the build.
