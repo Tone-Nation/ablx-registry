@@ -102,6 +102,7 @@ ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script
       <a href="/">Catalog</a>
       <a href="/guide/">Guide</a>
       <a href="/submit/">Submit</a>
+      <a href="https://patchwright.live" rel="noopener">Patchwright&thinsp;↗</a>
     </nav>
   </div>
 </header>
