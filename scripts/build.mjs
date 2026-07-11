@@ -224,8 +224,9 @@ Ableton's own FAQ advises.</p>
 distributable <code>.ablx</code>. Two ways to build one:</p>
 <ul>
   <li><b>Code:</b> the SDK directly — docs at the link above.</li>
-  <li><b>No code:</b> <b>Patchwright</b> — a visual node-graph builder that exports a working
-  <code>.ablx</code> from the browser (in private beta; public release soon).</li>
+  <li><b>No code:</b> <a href="https://patchwright.live" rel="noopener"><b>Patchwright</b></a> — a visual
+  node-graph builder that exports a working <code>.ablx</code> from the browser
+  (in private beta; public release soon).</li>
 </ul>
 <p>To list your extension here, add one JSON file to
 <a href="https://github.com/Tone-Nation/ablx-registry" rel="noopener">the open registry</a> via pull request —
@@ -289,7 +290,7 @@ const llms = `# ablx.live
 ## Building an extension
 
 - Ableton Extensions SDK (TypeScript/Node): https://ableton.github.io/extensions-sdk/
-- No-code builder (node graph or plain-language description → .ablx): Patchwright (in private beta)
+- No-code builder (node graph or plain-language description → .ablx): Patchwright (in private beta) — https://patchwright.live
 `;
 
 /* ── write dist ──────────────────────────────────────────────── */
