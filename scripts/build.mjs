@@ -111,7 +111,7 @@ ${body}
 <footer class="foot wrap">
   <p>An open registry of Ableton Live Extensions. Not affiliated with Ableton AG.
      Every listing links to its author's own page — <a href="/submit/">yours belongs here too</a>.</p>
-  <p class="mono dim">maintained by the Patchwright project ·
+  <p class="mono dim">maintained by the <a href="https://patchwright.live" rel="noopener">Patchwright</a> project ·
      <a href="/api/registry.json">registry.json</a> · <a href="/llms.txt">llms.txt</a></p>
 </footer>
 <script type="module" src="/catalog.js"></script>
