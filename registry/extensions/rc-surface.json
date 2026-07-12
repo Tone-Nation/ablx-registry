@@ -1,0 +1,15 @@
+{
+  "name": "Ableton RC Surface",
+  "slug": "rc-surface",
+  "author": "Gabriel Worm",
+  "authorUrl": "https://github.com/ntworm",
+  "homepageUrl": "https://github.com/ntworm/ableton-rc-surface",
+  "downloadUrl": "https://github.com/ntworm/ableton-rc-surface/releases/download/v0.5.8.4/Ableton-RC-Surface-0.5.8.4-Windows.ablx",
+  "description": "Turns a phone browser into a low-latency MIDI controller for Ableton Live 12: 12 pads, 2 XY pads, 6 knobs, 6 faders, 4 LFOs, 4 stutters, 8 snapshots, plus Mobile MAP mode that binds any phone control to any Live parameter via OSC. Ships with RC-Midi-Receiver.amxd for MIDI note triggering.",
+  "categories": ["midi-tools", "generative"],
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "price": "free",
+  "lastUpdated": "2026-07-12",
+  "confidence": "listed",
+  "builtWithPatchwright": false
+}
