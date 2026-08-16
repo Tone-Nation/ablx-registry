@@ -1,0 +1,14 @@
+{
+  "name": "Clip Role Tagger",
+  "slug": "clip-role-tagger",
+  "author": "Theo",
+  "authorUrl": "https://github.com/whybothercoding",
+  "homepageUrl": "https://github.com/whybothercoding/clip-role-tagger",
+  "downloadUrl": "https://github.com/whybothercoding/clip-role-tagger/releases/download/v1.0.0/Clip-Role-Tagger-1.0.0.ablx",
+  "description": "Right-click a clip or track to tag it with a customizable role, setting the clip's color and name prefix in one click instead of the manual color-picker-then-rename workflow.",
+  "categories": ["organization", "workflow"],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-08-16",
+  "confidence": "verified"
+}
