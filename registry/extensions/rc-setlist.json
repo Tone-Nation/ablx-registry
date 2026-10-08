@@ -1,0 +1,15 @@
+{
+  "name": "Ableton RC Setlist",
+  "slug": "rc-setlist",
+  "author": "Gabriel Worm",
+  "authorUrl": "https://github.com/ntworm",
+  "homepageUrl": "https://github.com/ntworm/rc-setlist",
+  "downloadUrl": "https://github.com/ntworm/rc-setlist/releases/download/v1.0.0/RC-Setlist-1.0.0.ablx",
+  "description": "Setlist, synchronized lyrics, and stage display extension for Ableton Live 12. Turns arrangement locators into cue-triggered songs with section loops, tempo/click cues, and remote control from any phone or tablet browser.",
+  "categories": ["workflow", "arrangement"],
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "price": "free",
+  "lastUpdated": "2026-09-17",
+  "confidence": "listed",
+  "builtWithPatchwright": false
+}
