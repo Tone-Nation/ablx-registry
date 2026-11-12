@@ -1,0 +1,17 @@
+{
+  "name": "Plugin Hell",
+  "slug": "plugin-hell",
+  "author": "Atish Mehta",
+  "authorUrl": "https://pluginhell.io",
+  "homepageUrl": "https://pluginhell.io/extension",
+  "downloadUrl": "https://pluginhell.io/extension/Plugin-Hell-0.1.0.ablx",
+  "description": "Lists every plugin and device in the open Set, including racks, return tracks and the Main track, and copies a shareable pluginhell.io link to the list. Current version 0.1.0; requires Ableton Live Suite 12.4.5 beta.",
+  "categories": [
+    "utilities",
+    "integration"
+  ],
+  "license": "MIT",
+  "price": "free",
+  "lastUpdated": "2026-11-11",
+  "notes": "Source: https://github.com/atishm/pluginhell-ableton"
+}
