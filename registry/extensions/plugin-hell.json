@@ -10,6 +10,8 @@
     "utilities",
     "integration"
   ],
+  "license": "MIT",
   "price": "free",
-  "lastUpdated": "2026-11-11"
+  "lastUpdated": "2026-11-11",
+  "notes": "Source: https://github.com/atishm/pluginhell-ableton"
 }
